@@ -19,7 +19,7 @@ app.get('/posts', (reg, res) => {
     let posts = []
     for(let i=0; i< num; i++){
         posts.push(Mock.mock({
-            id: '',
+            id: i,
             title: Random.cparagraph(1, 6),
             content: Random.cparagraph(2, 5),
             time: Random.datetime('yyyy-MM-dd hh:mm:ss'),
