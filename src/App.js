@@ -27,7 +27,10 @@ const App = () => {
   return (
     <div className="App">
       <h1>app</h1>
-      <Posts loading={loading} posts={posts} />
+      <Posts
+        loading={loading}
+        posts={posts}
+      />
     </div>
   );
 }
